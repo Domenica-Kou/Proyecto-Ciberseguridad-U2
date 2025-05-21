@@ -13,9 +13,17 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 32px;
-    gap: 32px;
+    gap: 100px;
     color:#f27f65;
     text-align: justify;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 16px;
+    }
 }
 
 h2 {
