@@ -1,9 +1,23 @@
-html {
+body {
+    font-family: "Funnel Display", sans-serif;
     background-color:#ffd0ab;
+    color: #f36747;
 }
 
-body {
-    font-family:'Franklin Gothic Medium';
-    color: #f36747;
+header {
     text-align: center;
+    color:#e0340e;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 32px;
+    gap: 32px;
+    color:#f27f65;
+    text-align: justify;
+}
+
+h2 {
+    color:#c12e0e
 }
